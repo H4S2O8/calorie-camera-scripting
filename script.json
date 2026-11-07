@@ -1,0 +1,17 @@
+{
+  "name": "Calorie Camera",
+  "localizedNames": { "zh": "卡路里相机" },
+  "description": "Photograph a meal, estimate calories and macros with a vision model, and save it to Apple Health.",
+  "localizedDescriptions": { "zh": "拍一张饭菜照片，用视觉大模型估算热量和三大营养素，确认后写入健康 App。" },
+  "version": "1.0.0",
+  "icon": "fork.knife.circle.fill",
+  "color": "#34C759",
+  "runInApp": true,
+  "permissions": ["fileSystem", "photos", "health"],
+  "author": { "name": "H4S2O8", "homepage": "https://github.com/H4S2O8" },
+  "contributors": [],
+  "remoteResource": {
+    "url": "https://github.com/H4S2O8/calorie-camera-scripting/tree/main",
+    "autoUpdateInterval": 600
+  }
+}
